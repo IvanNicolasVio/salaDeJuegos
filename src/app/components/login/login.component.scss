@@ -1,0 +1,21 @@
+body {
+  background: #121212;
+}
+
+.card.glass {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  backdrop-filter: blur(4px);
+  width: 450px;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+}
